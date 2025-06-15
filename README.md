@@ -7,7 +7,7 @@ We propose a novel domain adaption method named MGOT,aligning dsitributions at m
 ## Overview
 Overview of proposed MGOT framework, consisting of three key modules. First, pre-trained crowd counting models φ
 s and φt0 (which can be replaced with any density-map-based counting model) are applied to source and target patches to capture the fine-grained distribution in both domains. These distributions are then clustered based on similarity. Second, a multi-granularity domain alignment module using OT aligns the source and target domains from coarse to fine. Finally, a re-weighting strategy evaluates the alignment and fine-tunes φt0 to obtain the optimal target model, φt.
-![vis](./image/Overview.png)
+![vis](./image/overview.png)
 # Visualizations
 Visualization results in cross-domain setting involving A2B, A2Q and N2A.
 ![vis](./image/visualization.png)
